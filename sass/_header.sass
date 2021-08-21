@@ -1,0 +1,44 @@
+// Header de la pagina
+header
+    width: 95%
+    margin: auto
+    background-color: $blanco
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+    padding: 10px
+    .logotipo
+        text-decoration: none
+        display: flex
+        align-items: center
+        img
+            width: 70px
+            height: 70px
+        &:visited
+            h1
+                color: $negro
+        &:hover
+            cursor: pointer
+            h1
+                color: $azul-primario
+            img
+                opacity: 0.75
+        h1
+            font-size: 1.85em
+
+    nav
+        display: flex
+        font-size: 1em
+        a
+            text-decoration: none
+            padding: 10px
+            margin: 5px
+            color: $negro
+            font-weight: bold
+            font-style: italic
+            border: 2px solid $blanco
+            &:hover
+                color: $azul-primario
+                border-bottom: 2px solid $azul-primario
+// Fin del header
